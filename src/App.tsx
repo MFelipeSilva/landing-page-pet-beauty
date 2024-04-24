@@ -8,10 +8,11 @@ const Container = styled.main`
   display: flex;
   width: 100%;
   height: 100vh;
-  padding-left: 4.5em;
+  padding-left: 5.1vw;
   align-items: center;
   justify-content: start;
   background-image: url(${banner});
+  background-size: cover;
   background-repeat: no-repeat;
 
   div {

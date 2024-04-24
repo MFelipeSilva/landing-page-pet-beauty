@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import "./index.css";
+import GlobalStyle from "./global";
 
 import { Navbar } from "./components/Navbar";
 
@@ -12,6 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <GlobalStyle />
     <Navbar />
     <App />
   </React.StrictMode>

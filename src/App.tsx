@@ -57,7 +57,7 @@ function App() {
         <h1>
           Our <span>specialists</span> in offering the best care for your pet.
         </h1>
-        <Button />
+        <Button>Learn more</Button>
       </div>
     </Container>
   );

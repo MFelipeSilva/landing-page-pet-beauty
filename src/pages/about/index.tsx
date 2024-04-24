@@ -86,7 +86,7 @@ function About() {
             we have the best products for them, quality feed, toys, accessories
             and medicines.
           </p>
-          <Button />
+          <Button>Book with us</Button>
         </div>
       </div>
     </Container>

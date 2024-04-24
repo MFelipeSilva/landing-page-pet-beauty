@@ -1,4 +1,5 @@
-import React from "react";
+import React, { ReactNode } from "react";
+
 import styled from "styled-components";
 
 const StyledButton = styled.button`
@@ -14,11 +15,14 @@ const StyledButton = styled.button`
   background-color: #3d348b;
 
   @media (max-width: 520px) {
-    width: 100%;
     padding: 15px 50px;
   }
 `;
 
-export const Button = () => {
-  return <StyledButton>Learn more</StyledButton>;
+interface IAboutProps {
+  children: ReactNode;
+}
+
+export const Button = ({ children }: IAboutProps) => {
+  return <StyledButton>{children}</StyledButton>;
 };

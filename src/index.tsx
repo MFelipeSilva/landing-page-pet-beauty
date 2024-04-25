@@ -1,9 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import GlobalStyle from "./global";
+
+import App from "./App";
+import About from "./pages/about";
 
 import { Navbar } from "./components/Navbar";
 
@@ -15,6 +17,7 @@ root.render(
     <GlobalStyle />
     <Navbar />
     <App />
+    <About />
   </React.StrictMode>
 );
 

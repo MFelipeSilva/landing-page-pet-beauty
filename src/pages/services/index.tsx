@@ -21,7 +21,7 @@ const Container = styled.main`
   & > div {
     display: flex;
     width: 70vw;
-    gap: 80px;
+    gap: 100px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;

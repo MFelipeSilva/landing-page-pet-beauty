@@ -7,6 +7,7 @@ import GlobalStyle from "./global";
 import App from "./App";
 import About from "./pages/about";
 import Services from "./pages/services";
+import Contact from "./pages/contact";
 
 import { Navbar } from "./components/Navbar";
 
@@ -20,6 +21,7 @@ root.render(
     <App />
     <About />
     <Services />
+    <Contact />
   </React.StrictMode>
 );
 

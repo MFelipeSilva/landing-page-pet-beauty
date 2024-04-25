@@ -6,6 +6,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 
 import styled from "styled-components";
 
+import { Button } from "./Button";
+
 const StyledForm = styled.form`
   display: flex;
   max-width: 500px;
@@ -56,6 +58,7 @@ const StyledForm = styled.form`
   & > button {
     width: 100%;
     margin-top: 15px;
+    padding: 20px 50px;
   }
 `;
 
@@ -127,7 +130,7 @@ export const Form = () => {
         />
         {errors.message && <span>{errors.message.message}</span>}
       </label>
-      <button type="submit">Send message</button>
+      <Button type="submit">Send message</Button>
     </StyledForm>
   );
 };

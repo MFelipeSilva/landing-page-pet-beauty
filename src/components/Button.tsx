@@ -10,7 +10,7 @@ const StyledButton = styled.button`
   cursor: pointer;
   font-size: clamp(16px, 3vw, 18px);
   font-weight: 600;
-  padding: 18px 50px;
+  padding: 20px 50px;
   border-radius: 20px;
   background-color: #3d348b;
 
@@ -20,9 +20,10 @@ const StyledButton = styled.button`
 `;
 
 interface IAboutProps {
+  type?: "button" | "submit" | "reset" | undefined;
   children: ReactNode;
 }
 
-export const Button = ({ children }: IAboutProps) => {
-  return <StyledButton>{children}</StyledButton>;
+export const Button = ({ type, children }: IAboutProps) => {
+  return <StyledButton type={type}>{children}</StyledButton>;
 };

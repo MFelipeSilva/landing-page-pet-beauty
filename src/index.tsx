@@ -6,6 +6,7 @@ import GlobalStyle from "./global";
 
 import App from "./App";
 import About from "./pages/about";
+import Services from "./pages/services";
 
 import { Navbar } from "./components/Navbar";
 
@@ -18,6 +19,7 @@ root.render(
     <Navbar />
     <App />
     <About />
+    <Services />
   </React.StrictMode>
 );
 

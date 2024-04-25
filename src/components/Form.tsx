@@ -35,7 +35,7 @@ const StyledForm = styled.form`
 
     textarea {
       width: 100%;
-      height: 210px;
+      height: 230px;
       font-size: 18px;
       font-weight: 400;
       resize: none;
@@ -43,11 +43,6 @@ const StyledForm = styled.form`
       padding: 20px;
       border-radius: 10px;
       border: 1px solid #000;
-    }
-
-    & > span {
-      font-size: 13px;
-      color: #ff0000;
     }
   }
 
@@ -109,7 +104,6 @@ export const Form = () => {
           {...register("name")}
           className={errors && errors.name === undefined ? "" : "error"}
         />
-        {errors.name && <span>{errors.name.message}</span>}
       </label>
       <label>
         Email
@@ -119,7 +113,6 @@ export const Form = () => {
           {...register("email")}
           className={errors && errors.email === undefined ? "" : "error"}
         />
-        {errors.email && <span>{errors.email.message}</span>}
       </label>
       <label>
         Message
@@ -128,7 +121,6 @@ export const Form = () => {
           {...register("message")}
           className={errors && errors.message === undefined ? "" : "error"}
         />
-        {errors.message && <span>{errors.message.message}</span>}
       </label>
       <Button type="submit">Send message</Button>
     </StyledForm>

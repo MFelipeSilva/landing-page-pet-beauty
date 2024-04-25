@@ -7,18 +7,19 @@ const Container = styled.main`
   width: 100%;
   height: 100%;
   gap: 80px;
-  padding: 15em 0;
+  padding: 10em 0;
   align-items: center;
   justify-content: center;
 
   & > div {
     display: flex;
-    max-width: 1529.59px;
-    width: 80vw;
+    max-width: 1720.8px;
+    width: 90vw;
+
     gap: 100px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     div {
       display: flex;

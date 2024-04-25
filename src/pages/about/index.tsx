@@ -7,7 +7,8 @@ import about_image from "../../assets/about-image.png";
 const Container = styled.main`
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  padding: 10em 0;
   align-items: center;
   justify-content: space-evenly;
 
@@ -15,6 +16,7 @@ const Container = styled.main`
     display: flex;
     max-width: 1728px;
     width: 90vw;
+    gap: 100px;
     align-items: center;
     justify-content: space-around;
 

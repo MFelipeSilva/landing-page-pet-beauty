@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { Button } from "./components/Button";
 
-import banner from "../src/assets/home-banner.png";
+import home_banner from "../src/assets/home-banner.png";
 
 const Container = styled.main`
   display: flex;
@@ -11,7 +11,7 @@ const Container = styled.main`
   padding-left: 5.1vw;
   align-items: center;
   justify-content: start;
-  background-image: url(${banner});
+  background-image: url(${home_banner});
   background-size: cover;
   background-repeat: no-repeat;
 

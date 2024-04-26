@@ -4,12 +4,13 @@ import reportWebVitals from "./reportWebVitals";
 
 import GlobalStyle from "./global";
 
+import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
+
 import App from "./App";
 import About from "./pages/about";
 import Services from "./pages/services";
 import Contact from "./pages/contact";
-
-import { Navbar } from "./components/Navbar";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -22,6 +23,7 @@ root.render(
     <About />
     <Services />
     <Contact />
+    <Footer />
   </React.StrictMode>
 );
 

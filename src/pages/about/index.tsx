@@ -76,7 +76,7 @@ function About() {
   return (
     <Container>
       <div>
-        <img src={about_image} alt="image of a cat" />
+        <img src={about_image} alt="cat" />
         <div>
           <h2>
             We are a pet shop that will offer the <span>best care</span> for

@@ -96,6 +96,7 @@ function Contact() {
             </p>
           </div>
           <iframe
+            title="google maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207.89462714197262!2d-86.7785447079524!3d33.51921998814268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88891bb3cdcbf95d%3A0x2a27f9dddaa4dc9!2sAvondale%20Animal%20Hospital!5e0!3m2!1spt-BR!2sbr!4v1714053704280!5m2!1spt-BR!2sbr"
             allowFullScreen
             loading="lazy"

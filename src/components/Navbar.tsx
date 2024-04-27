@@ -26,14 +26,16 @@ const Container = styled.header`
     ul {
       display: flex;
       gap: 30px;
+      list-style: none;
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      & > li {
+
+      & > li > a {
         color: #fff;
         font-size: 18px;
         font-weight: 500;
-        list-style: none;
+        text-decoration: none;
       }
     }
 
@@ -59,10 +61,18 @@ export const Navbar = () => {
       <nav>
         <span>Pet Beauty</span>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Contact</li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
         <IconMenu />
       </nav>

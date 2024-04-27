@@ -4,7 +4,7 @@ import { Button } from "../../components/Button";
 
 import about_image from "../../assets/about-image.png";
 
-const Container = styled.main`
+const Container = styled.section`
   display: flex;
   width: 100%;
   height: 100%;
@@ -74,7 +74,7 @@ const Container = styled.main`
 
 function About() {
   return (
-    <Container>
+    <Container id="about">
       <div>
         <img src={about_image} alt="cat" />
         <div>

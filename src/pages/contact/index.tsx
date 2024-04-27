@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { Form } from "../../components/Form";
 
-const Container = styled.main`
+const Container = styled.section`
   display: flex;
   width: 100%;
   height: 100%;
@@ -81,7 +81,7 @@ const Container = styled.main`
 
 function Contact() {
   return (
-    <Container>
+    <Container id="contact">
       <div>
         <Form />
         <div>

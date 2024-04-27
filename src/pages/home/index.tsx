@@ -7,8 +7,8 @@ import home_banner from "../../assets/home-banner.png";
 const Container = styled.section`
   display: flex;
   width: 100%;
-  height: 100vh;
-  padding-left: 5.1vw;
+  height: 100%;
+  padding: 25em 0 20em 5.1vw;
   align-items: center;
   justify-content: start;
   background-image: url(${home_banner});

@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 import styled from "styled-components";
 
@@ -13,6 +13,11 @@ const StyledButton = styled.button`
   padding: 20px 50px;
   border-radius: 20px;
   background-color: #3d348b;
+  transition: all 0.5s ease-out 0s;
+
+  &:hover {
+    background-color: #5146b0;
+  }
 
   @media (max-width: 520px) {
     padding: 15px 50px;

@@ -11,9 +11,9 @@ const Container = styled.section`
   padding: 25em 0 20em 5.1vw;
   align-items: center;
   justify-content: start;
-  background-image: url(${home_banner});
   background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url(${home_banner});
+
 
   div {
     display: flex;

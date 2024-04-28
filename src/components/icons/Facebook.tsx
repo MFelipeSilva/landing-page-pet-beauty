@@ -1,8 +1,8 @@
 export const IconFacebook = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="23"
-    height="23"
+    width="22"
+    height="22"
     viewBox="0 0 512 512"
   >
     <path

@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 import { IconClose, IconMenu } from "./icons";
 
+import logo from "../assets/logo.png";
+
 interface IHeaderProps {
   isOpen: boolean;
 }
@@ -11,7 +13,7 @@ interface IHeaderProps {
 const StyledHeader = styled.header<IHeaderProps>`
   display: flex;
   width: 100%;
-  height: 6em;
+  height: 8em;
   position: absolute;
   top: 0;
   align-items: center;
@@ -22,12 +24,6 @@ const StyledHeader = styled.header<IHeaderProps>`
     width: 90%;
     align-items: center;
     justify-content: space-between;
-
-    & > span {
-      color: #fff;
-      font-size: 36px;
-      font-weight: 700;
-    }
 
     ul {
       display: flex;
@@ -152,7 +148,7 @@ export const Navbar = () => {
   return (
     <StyledHeader isOpen={isOpen}>
       <nav>
-        <span>Pet Beauty</span>
+        <img src={logo} alt="logo" />
         <ul>
           <li>
             <a href="#">Home</a>

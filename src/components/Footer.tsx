@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import { IconFacebook, IconInstagram, IconTwitter } from "./icons";
 
+import logo from "../assets/logo.png";
 import footer_banner from "../assets/footer-banner.png";
 
 const StyledFooter = styled.footer`
@@ -107,7 +108,7 @@ export const Footer = () => {
   return (
     <StyledFooter>
       <div>
-        <span>Pet Beauty</span>
+        <img src={logo} alt="logo" />
         <div>
           <ul>
             <h3>Pages</h3>

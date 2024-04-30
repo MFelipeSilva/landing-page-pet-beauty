@@ -24,11 +24,12 @@ const StyledFooter = styled.footer`
     align-items: start;
     justify-content: space-between;
 
-    & > span {
-      color: #fff;
-      font-size: 36px;
-      font-weight: 700;
+    & > img {
+      max-width: 115px;
+      max-height: 115px;
+      object-fit: contain;
     }
+
     & > div {
       display: flex;
       gap: 5em 15em;

@@ -25,6 +25,12 @@ const StyledHeader = styled.header<IHeaderProps>`
     align-items: center;
     justify-content: space-between;
 
+    & > img {
+      max-width: 130px;
+      max-height: 130px;
+      object-fit: contain;
+    }
+
     ul {
       display: flex;
       gap: 30px;

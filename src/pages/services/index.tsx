@@ -51,6 +51,12 @@ const Card = styled.div`
     flex-direction: column;
     justify-content: center;
 
+    & > img {
+      max-width: 120px;
+      max-height: 120px;
+      object-fit: contain;
+    }
+
     & > h2 {
       color: #000;
       font-size: 20px;

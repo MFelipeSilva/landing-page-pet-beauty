@@ -1,7 +1,6 @@
 # Pet Beauty
 
-<img src="https://i.ibb.co/tM0zfD7/Screenshot-2024-04-29-090903.png" />
-
+<img src="https://i.imgur.com/zq8N78W.png" />
 
 ## 🚀 Running in development mode
 

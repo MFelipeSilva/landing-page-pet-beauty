@@ -21,7 +21,7 @@ const StyledHeader = styled.header<IHeaderProps>`
 
   nav {
     display: flex;
-    width: 90%;
+    width: 75vw;
     align-items: center;
     justify-content: space-between;
 
@@ -61,6 +61,10 @@ const StyledHeader = styled.header<IHeaderProps>`
       color: #fff;
       cursor: pointer;
       background: none;
+    }
+
+    @media (max-width: 992px) {
+      width: 90vw;
     }
 
     @media (max-width: 768px) {

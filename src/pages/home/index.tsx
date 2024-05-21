@@ -8,35 +8,35 @@ const Container = styled.section`
   display: flex;
   width: 100%;
   height: 100%;
-  padding: 25em 0 20em 5.1vw;
+  padding: 20em 0;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   background-size: cover;
   background-image: url(${home_banner});
 
-
-  div {
+  & > div {
     display: flex;
-    max-width: 660px;
-    width: 60%;
-    gap: 30px;
-    flex-direction: column;
+    width: 75vw;
 
-    h1 {
-      color: #fff;
-      font-size: clamp(45px, 4vw, 65px);
+    & > div {
+      display: flex;
+      max-width: 660px;
+      width: 60%;
+      gap: 30px;
+      flex-direction: column;
 
-      & > span {
-        color: #3d348b;
+      h1 {
+        color: #fff;
+        font-size: clamp(45px, 4vw, 65px);
+
+        & > span {
+          color: #3d348b;
+        }
       }
     }
 
-    @media (max-width: 768px) {
-      width: 70%;
-    }
-
-    @media (max-width: 520px) {
-      width: 90%;
+    @media (max-width: 992px) {
+      width: 90vw;
     }
   }
 
@@ -54,10 +54,12 @@ function Home() {
   return (
     <Container>
       <div>
-        <h1>
-          Our <span>specialists</span> in offering the best care for your pet.
-        </h1>
-        <Button>Learn more</Button>
+        <div>
+          <h1>
+            Our <span>specialists</span> in offering the best care for your pet.
+          </h1>
+          <Button>Learn more</Button>
+        </div>
       </div>
     </Container>
   );

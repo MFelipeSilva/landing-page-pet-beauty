@@ -18,7 +18,7 @@ const StyledFooter = styled.footer`
 
   & > div:nth-child(1) {
     display: flex;
-    width: 90%;
+    width: 75vw;
     gap: 5em;
     flex-wrap: wrap;
     align-items: start;
@@ -73,7 +73,7 @@ const StyledFooter = styled.footer`
 
   & > div:nth-child(2) {
     display: flex;
-    width: 90vw;
+    width: 75vw;
     margin-top: 6em;
     align-items: self-end;
     justify-content: space-between;

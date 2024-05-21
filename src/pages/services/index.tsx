@@ -23,7 +23,7 @@ const Container = styled.section`
 
     & > div {
       display: flex;
-      width: 70vw;
+      width: 75vw;
       gap: 100px;
       flex-wrap: wrap;
       align-items: center;

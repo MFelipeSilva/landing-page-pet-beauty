@@ -14,12 +14,11 @@ const Container = styled.section`
   & > div {
     display: flex;
     max-width: 1720.8px;
-    width: 90vw;
-
+    width: 75vw;
     gap: 100px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     div {
       display: flex;

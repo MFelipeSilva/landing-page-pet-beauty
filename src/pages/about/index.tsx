@@ -15,10 +15,10 @@ const Container = styled.section`
   div {
     display: flex;
     max-width: 1728px;
-    width: 90vw;
+    width: 75vw;
     gap: 100px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
     & > img {
       max-width: 100%;
@@ -65,7 +65,8 @@ const Container = styled.section`
       }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
+      width: 90vw;
       gap: 30px;
       flex-direction: column-reverse;
     }
